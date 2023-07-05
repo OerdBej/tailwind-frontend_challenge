@@ -8,7 +8,8 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
             rel="stylesheet" />
-
+        <!-- defer: be executed after the document has been parsed -->
+        <script src="javascript/script.js" defer></script>
         <link rel="stylesheet" href="css/style.css" />
         <title>Loopstudios Website</title>
     </head>
@@ -64,7 +65,7 @@
                 <!-- Mobile View -->
                 <div
                     id="menu"
-                    class="absolute bottom-0 left-0 top-0 flex min-h-screen w-full flex-col space-y-3 self-end bg-black py-1 pl-12 pt-40 text-lg uppercase text-white">
+                    class="absolute bottom-0 left-0 top-0 hidden min-h-screen w-full flex-col space-y-3 self-end bg-black py-1 pl-12 pt-40 text-lg uppercase text-white">
                     <a href="#" class="hover:text-pink-500">About</a>
                     <a href="#" class="hover:text-pink-500">Careers</a>
                     <a href="#" class="hover:text-pink-500">Events</a>
